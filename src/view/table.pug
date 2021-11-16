@@ -3,19 +3,19 @@
     form.card-body()
 
         .row
-            .col-xs-4
+            .col-4
                 .form-group
 
                     label Escolaridade (anos)
                     input.form-control(type="number" ng-model="ctrl.dadosPaciente.escolaridade")
 
-            .col-xs-4
+            .col-4
                 .form-group
 
                     label Idade (20 a 94)
                     input.form-control(type="number" ng-model="ctrl.dadosPaciente.idade" min="20" max="94")
 
-            .col-xs-4
+            .col-4
                 .form-group
 
                     label Sexo
@@ -34,12 +34,12 @@
                 thead
                     tr
                         th PD-CRS
-                        th Escore
-                        th Predito
-                        th z
-                        th T
-                        th Percentil
-                        th Classificação
+                        th.col-1 Escore
+                        th.col-1 Predito
+                        th.col-1 z
+                        th.col-1 T
+                        th.col-1 Percentil
+                        th.col-2 Classificação
 
                 tbody
 
