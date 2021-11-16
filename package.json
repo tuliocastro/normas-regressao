@@ -9,7 +9,7 @@
     "build": "gulp",
     "serve": "http-server -p 8081 -c-1 dist/",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "3.2.3",
