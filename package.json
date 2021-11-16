@@ -1,0 +1,23 @@
+{
+  "name": "normasregressao",
+  "version": "0.0.2",
+  "author": "tuliocastro",
+  "license": "MIT",
+  "description": "Normas regressao",
+  "main": "main.js",
+  "scripts": {
+    "build": "gulp",
+    "serve": "http-server -p 8081 -c-1 dist/",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "3.2.3",
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-load-plugins": "2.0.7",
+    "gulp-pug": "5.0.0",
+    "http-server": "14.0.0"
+  },
+  "dependencies": {}
+}
